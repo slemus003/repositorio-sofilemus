@@ -8,27 +8,45 @@ h1,p {
 
 .container{
   display: flex;
-  background-color: grey;
-  width: 1850px;
-  margin: 20px 0;
+  background-color: rgb(85, 124, 100);
+  width: 940 px;
+  margin: 20px auto;
   content:center;
 }
 
 .container div{
   background-color: #5DBA8A;
   margin:10px;
-    padding:20px;
+  padding:30px;
   font-size: 24px;
   content:center;
   
 }
 
-#main-footer{
-  background-color: grey
+footer{
+  background-color:#83D6B3;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  margin-top: 2rem;
 }
 
-#main-footer a{
-  color: white;
-  margin: 0 1rem;
-  font-size: 1.2rem;
+.social {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.social a{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background: white;
+  color:#83D6B3;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 1.5rem;
 }
