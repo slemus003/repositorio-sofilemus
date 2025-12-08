@@ -1,0 +1,179 @@
+:root {
+  --navy-blue: #1b5e38;
+  --dark-navy: #ffffff;
+  --light-grey: #f5f7fa;
+  --dark-grey: #d7e0e9;
+  --gold: #d4af37;
+  --light-blue: #0f4c2a;
+  --very-dark-grey: #2c3e50;
+}
+
+body {
+  max-width: 1300px !important;
+  background-color: var(--light-grey) !important;
+  color: var(--dark-grey);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.w3-black {
+  background-color: var(--dark-navy) !important;
+  color: var(--dark-grey) !important;
+}
+
+.w3-black .w3-button {
+  color: var(--very-dark-grey) !important;
+}
+
+.w3-blue-grey {
+  background-color: var(--navy-blue) !important;
+}
+
+.w3-light-grey {
+  background-color: var(--light-grey) !important;
+}
+
+.w3-indigo {
+  background-color: var(--light-blue) !important;
+}
+
+.w3-dark-grey {
+  background-color: var(--dark-grey) !important;
+}
+
+.w3-teal {
+  background-color: var(--navy-blue) !important;
+}
+
+/* Secciones principales */
+.logo-section {
+  height: 700px;
+  background-color: var(--dark-navy);
+  color: var(--very-dark-grey);
+}
+
+.about-section {
+  height: 700px;
+  background-color: var(--navy-blue);
+  color: white;
+}
+
+.work-section {
+  min-height: 800px;
+  background-color: var(--light-grey);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.courses-section {
+  min-height: 800px;
+  background-color: var(--light-blue);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.contact-section {
+  height: 700px;
+  background-color: var(--dark-grey);
+  color: black;
+}
+
+/* Botones */
+.nav-button {
+  background-color: var(--dark-navy);
+  color: var(--very-dark-grey) !important;
+  border: 2px solid var(--gold);
+  transition: all 0.3s ease;
+}
+
+.nav-button:hover {
+  background-color: var(--gold);
+  color: var(--dark-navy);
+}
+
+/* Formulario */
+.contact-form {
+  width: 100%;
+  background-color: white;
+  border-left: 4px solid var(--gold);
+}
+
+.contact-form input {
+  width: 100%;
+  border-bottom: 1px solid var(--navy-blue);
+}
+
+.contact-form input:focus {
+  border-bottom: 2px solid var(--gold);
+  outline: none;
+}
+
+.contact-form button {
+  background-color: var(--navy-blue);
+  color: white;
+}
+
+.contact-form button:hover {
+  background-color: var(--gold);
+  color: var(--dark-navy);
+}
+
+/* Imágenes */
+img.logo {
+  width: 35%;
+  border: 3px solid var(--gold);
+}
+
+img.profile-photo {
+  width: 30%;
+  border: 3px solid var(--gold);
+}
+
+/* Tabla */
+table {
+  width: 100%;
+}
+
+table th {
+  background-color: var(--navy-blue) !important;
+  color: white !important;
+  border-bottom: 2px solid var(--gold) !important;
+}
+
+table tr:hover {
+  background-color: rgba(212, 175, 55, 0.1);
+}
+
+/* Títulos */
+h1, h2 {
+  color: var(--gold);
+  font-weight: 600;
+}
+
+/* Footer */
+footer {
+  background-color: var(--dark-navy) !important;
+  color: var(--dark-grey) !important;
+  border-top: 2px solid var(--gold);
+}
+
+footer a {
+  color: var(--gold);
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: var(--dark-grey);
+  text-decoration: underline;
+}
+
+/* Responsivo */
+@media (max-width: 600px) {
+  .logo-section,
+  .about-section,
+  .contact-section {
+    height: auto;
+  }
+}
